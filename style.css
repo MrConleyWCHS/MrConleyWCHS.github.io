@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Spacia, Helvetica, sans-serif;
+  background-color: #3c3c3d;
+}
+
+/* Style the header */
+header {
+  background-color: #020237;
+  padding: 5px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+/* Create two columns/boxes that float next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background-color: #3c3c3d;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 23px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 2px;
+  
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #9d9d9d;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 0px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #020237;
+  padding-bottom: 10%;
+  text-align: center;
+  color: white;
+  font-size: 10px
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.floatImg {
+	float: right;
+	padding-top: 80px;
+
+}
+
+a:link {
+  color: white;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: gray;
+}
+
+a {
+	font-weight: bold;
+}
+
+#knightGif {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#foot {
+	padding: 20px;
+	font-size: 20px;
+}
+
+#wolfLogo {
+	width:100%;
+	padding: 5px;
+}
+
+#school {
+	color: white;
+	font-style: italic;
+}
+
+#hobbitCartoon {
+	width: 50%;
+	padding: 10px;
+	}
+	
+#hobbitBook {
+	width: 50%;
+	padding: 10px;
+}
+
+#lotrGand {
+	width: 50%;
+	padding: 10px;
+	
+}
+
+#bookSeriesHead {
+	padding-top: 60px;
+}
+
+#lotrBook {
+	width: 50%;
+	max-height: 20%;
+	padding: 10px;
+}
+
+iframe {
+	padding: 30px;
+	border: 0;
+}
+
+.headClass {
+	padding-top: 30px;
+}
+
+.movieClass {
+	max-width: 40%;
+	padding-bottom: 30px;
+}
+
+#lesMis {
+	max-width: 22%;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#jackW {
+	max-width: 30%;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#howShore {
+	max-width: 24%;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#tableHeader {
+
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+#formDiv {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#normFont {
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 20px;
+	text-align: left;
+}
+
+.invisHead {
+	padding: 0px;
+}
+
+.author {
+	color: white;
+	float: right;
+}
+
+.intro {
+	padding: 15px;
+	border: #020237 solid 15px;
+	outline: black dotted 1px;
+	margin: 15px;
+}
